@@ -1,4 +1,4 @@
-(footprint "ESP32-C3-SuperMini-SMD"
+(footprint "Module_ESP32-C3-SuperMini-SMD"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "ESP32-C3-SuperMini-SMD"
+	(property "Value" "Module_ESP32-C3-SuperMini-SMD"
 		(at 6.985 12.3825 0)
 		(layer "F.Fab")
 		(uuid "14e8230c-bd78-4e01-b221-adcda13820e6")

@@ -1,7 +1,7 @@
-(footprint "Connfly_DS1134"
-	(version 20240108)
+(footprint "Connector_Connfly_DS1134"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "J**"
 		(at 0 3 0)
@@ -15,24 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Connfly_DS1134"
+	(property "Value" "Connector_Connfly_DS1134"
 		(at 0.5 -11.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "22654fae-67fb-4090-a141-d37895374a86")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "BKSP:Connfly_DS1134"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90bfd43a-8e44-4c7d-98ae-2209b567b8d5")
 		(effects
 			(font
 				(size 1 1)
@@ -144,7 +131,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a5095ed7-3510-4486-9055-a3c049fb3ac0")
 	)
@@ -238,6 +225,7 @@
 		(remove_unused_layers no)
 		(uuid "4c7fd492-f6fb-41f9-9648-ed75ea288e51")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_BKSP_LIB_DIR}/BKSP.3dshapes/TJ8P8C 8p 8c compact.stp"
 		(offset
 			(xyz -3.5 5 0)

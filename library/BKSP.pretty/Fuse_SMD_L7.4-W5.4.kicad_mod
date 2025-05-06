@@ -1,7 +1,7 @@
-(footprint "FUSE-SMD_L7.4-W5.4"
-	(version 20240108)
+(footprint "Fuse_SMD_L7.4-W5.4"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -14,25 +14,13 @@
 			)
 		)
 	)
-	(property "Value" "FUSE-SMD_L7.4-W5.4"
+	(property "Value" "Fuse_SMD_L7.4-W5.4"
 		(at 0 4 0)
 		(layer "F.Fab")
 		(uuid "5aaadab5-65c4-498a-a9dd-a0fd9263cc5f")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "98f95ae0-0c4e-488c-9d82-e054528e50f8")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -151,7 +139,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "761aa4a8-49e1-4593-999f-a812031d9373")
 	)
@@ -169,15 +157,16 @@
 	(pad "1" smd rect
 		(at -3.74 0)
 		(size 2.4 4.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9745125c-f985-47e5-9d21-4dab51883b7f")
 	)
 	(pad "2" smd rect
 		(at 3.74 0)
 		(size 2.4 4.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2cb15d83-4638-4e9e-9afa-4c604204d24e")
 	)
+	(embedded_fonts no)
 	(model "/Users/flo/Projects/kicad/assets/BKSP.3dshapes/FUSE-SMD_L7.4-W5.4.wrl"
 		(offset
 			(xyz -4 0 3)
