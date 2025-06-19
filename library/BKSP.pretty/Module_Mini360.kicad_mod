@@ -1,7 +1,7 @@
 (footprint "Module_Mini360"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0.5 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "78c5c648-a64c-4feb-a37d-2158f3f0880c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -104,7 +92,7 @@
 	)
 	(pad "1" thru_hole oval
 		(at -7.62 -4.57)
-		(size 2.5 2)
+		(size 5 4)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -112,7 +100,7 @@
 	)
 	(pad "2" thru_hole oval
 		(at -7.62 4.57)
-		(size 2.5 2)
+		(size 5 4)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -120,7 +108,7 @@
 	)
 	(pad "3" thru_hole oval
 		(at 7.62 -4.57)
-		(size 2.5 2)
+		(size 5 4)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -128,12 +116,13 @@
 	)
 	(pad "4" thru_hole oval
 		(at 7.62 4.57)
-		(size 2.5 2)
+		(size 5 4)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ab5400e8-3776-4889-8ca3-671df1a9597f")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_BKSP_LIB_DIR}/BKSP.3dshapes/mini360.step"
 		(offset
 			(xyz 9 6 0)
