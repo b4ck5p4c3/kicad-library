@@ -1,0 +1,220 @@
+(footprint "Connector_RF_UFL_SMT160"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "U.FL-R-SMT-1(60)-2")
+	(tags "rf connector, rf, ipex, ufl")
+	(property "Reference" "L**"
+		(at 0 0.375 0)
+		(layer "F.SilkS")
+		(uuid "f11b46ee-8f62-4e97-b953-cb42ec80bea0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Connector_RF_UFL_SMT160"
+		(at 0 0.375 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d02d3324-9426-4fb9-8d7a-2c1df1ada844")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-60&productname=U.FL-R-SMT-1(60)&series=U.FL&documenttype=SpecSheet&lang=en&documentid=0000266773"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5e20ea8-3f4b-489a-9e65-023f1faa97fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "U.FL-R-SMT-1(60)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "664915f6-873a-45f3-97d6-df467994c4ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -1.3)
+		(end 1.3 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "565e5dc0-f60d-418a-8d46-d3091460cc84")
+	)
+	(fp_line
+		(start -3 -2.3)
+		(end 3 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2a723d7-ca6c-4ba7-8c4c-658400bc0a04")
+	)
+	(fp_line
+		(start -3 3.05)
+		(end -3 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48ae7388-2262-4c7c-aa8e-51d6f95e1c5f")
+	)
+	(fp_line
+		(start 3 -2.3)
+		(end 3 3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec08be55-326d-4f14-8df6-a0769d644953")
+	)
+	(fp_line
+		(start 3 3.05)
+		(end -3 3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e4ff313-dce9-4beb-8009-98897bb1d2b9")
+	)
+	(fp_line
+		(start -1.3 -1.3)
+		(end 1.3 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ea4c862-405f-41a7-815d-8884eca3182f")
+	)
+	(fp_line
+		(start -1.3 1.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c27fab23-3ee4-48e1-bddc-8b0fa747bd25")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "976ac622-f7bf-4b2b-980a-f9cdd1ddaf52")
+	)
+	(fp_line
+		(start 1.3 1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7ffe6fa-1443-487f-a1b4-b110572765fc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.375 0)
+		(layer "F.Fab")
+		(uuid "46c8dbed-0ba1-4170-9f09-6c18aca730d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1.525)
+		(size 1 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f114fea-b078-41c8-8dab-ac639dbf4f31")
+	)
+	(pad "2" smd rect
+		(at -1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "13296ec4-4f47-4d86-b7e2-7f0db230189b")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8dceb378-003a-4ad8-b9d0-c583518f95af")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "2c41bef7-1696-448c-a9ee-3668c189f6b3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.3 -1.1) (xy -0.5 -1.1) (xy -0.5 -2.3) (xy 0.5 -2.3) (xy 0.5 -1.1) (xy 1.3 -1.1) (xy 1.3 1.3)
+				(xy -1.3 1.3)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_BKSP_LIB_DIR}/BKSP.3dshapes/U.FL-R-SMT-1_60_.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
